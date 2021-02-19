@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #442EF0;
+    font-family:'Poppins', sans-serif;
+}
+
+.container{
+    max-width:800px;
+    background-color:#2CA9E6;
+    margin: 0 auto;
+    padding: 30px;
+}
+header{
+
+}
+.profile-image img{
+    width: 100px;
+    height: 120px;
+    border:3px solid black;
+    border-radius: 50%;
+    
+
+}
+.profile-image{
+   
+    float: left;
+}
+.header-bio{
+    float:left;
+    padding: 30px;
+
+}
+.wd{
+    letter-spacing:8px;
+}
+h1,h2,h3,h4,h5,h6{
+    color:#760000;
+}
+.header-contact{
+    float: right;
+    padding:30px;
+}
+.header-contact a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #760000;
+
+}
+.header-contact a:hover{
+    color:blue;
+    text-decoration: underline;
+}
+.div-clear{
+    clear: both;
+}
+#hr1{
+    border:solid  black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+    
+}
+.left-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+    width: 70%;
+    float: right;
+    box-sizing: border-box;
+}
+.right-div p{
+    text-align: justify;
+    
+}
+.common-hr{
+    border: 1.5px black solid;
+    width: 100%;
+    border-bottom: none;
+    margin: 20px auto;
+}
+.right-div .web-dv{
+    margin-top: 15px;
+}
+
+.right-div .right1{
+
+    width: 45%;
+    float:left;
+}
+.right-div .right2{
+    width: 45%;
+    float: right;
+
+}
+.right-div .ul1{
+    margin-left: 100px;
+}
+.right-div .r1{
+    width:35%;
+    float: left;
+}
+.right-div .r2{
+    float: right;
+    width:35%;
+}
+.right-div .r3{
+    float: right;
+    width:30%;
+}
+
+.right-div .r1 ul{
+    list-style-type: none;
+
+}
+.right-div .r1 li::before{
+    content: '\f058';
+    font-family: 'Font Awesome 5 Free';
+    color: blanchedalmond;
+    padding:3px;
+
+   
+}
+
+/*------------
+footar start
+-------------*/
+.bottom-container{
+    background-color: black;
+    text-align: center;
+    box-sizing: border-box;
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 10px;
+    
+    
+   
+}
+.bottom-container a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+   
+}
+.bottom-container p{
+    color: white;
+    margin-top: 20px;
+    
+}
